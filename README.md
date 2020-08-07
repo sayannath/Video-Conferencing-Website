@@ -38,6 +38,15 @@ This URL has the application deployed in **Heroku**
 Install Node JS
 Refer to https://nodejs.org/en/ to install Nodejs
 
+## Packages Used
+```
+1. ejs
+2. express
+3. peer
+4. socket.io
+5. uuid
+```
+
 ## Cloning and Running the Application in local
 **Clone the project into local**
 
@@ -69,6 +78,6 @@ Pull Requests are welcome. Please follow these rules for the ease of understandi
 [🐤 Twitter](https://twitter.com/SayanNa20204009)
 
 [🧳 LinkedIn](https://www.linkedin.com/in/sayan-nath-15a989182/)
-<br>
+
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/sayannath)
