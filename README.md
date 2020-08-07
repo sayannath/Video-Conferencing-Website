@@ -8,27 +8,6 @@ This website is built using Javascript. This website enables us to do video call
 <img src="screenshots/3.png" />
 <img src="screenshots/4.png" />
 
-# Support
-
-<table>
-<thead><tr><th>Platform</th><th>Support</th></tr></thead>
-<tbody>
-<tr><td>
-Linux
-</td><td>
-Supported
-</td></tr>
-<tr><td>
-Mac OS
-</td><td>
-Supported
-</td></tr>
-<tr><td>
-Windows
-</td><td>
-Supported
-</td></tr>
-</tbody></table>
 
 ## Live Application URL
 #### https://tranquil-river-58769.herokuapp.com/
