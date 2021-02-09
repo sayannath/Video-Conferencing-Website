@@ -16,6 +16,8 @@ app.use(express.static("public"));
 app.use('/peerjs', peerServer);
 app.use(cors());
 
+
+
 app.get("/", (req, res) => {
   res.redirect(`/${uuidv4()}`);
 });
@@ -35,4 +37,4 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(process.env.PORT || 3030);
+server.listen(443);
