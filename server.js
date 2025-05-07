@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 const app = express();
 
 const cors = require("cors");
-const server = require("https").Server(app);
+const server = require("http").Server(app);
 const io = require("socket.io")(server);
 const { ExpressPeerServer } = require('peer');
 const peerServer = ExpressPeerServer(server, {
@@ -15,8 +15,6 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use('/peerjs', peerServer);
 app.use(cors());
-
-
 
 app.get("/", (req, res) => {
   res.redirect(`/${uuidv4()}`);
@@ -37,4 +35,4 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(443);
+server.listen(process.env.PORT || 3030);
